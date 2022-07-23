@@ -65,6 +65,7 @@ body{
 .header-body{
     display: flex;
     align-items: center;
+    position: relative;
 }
 .logo {
     display: flex;
@@ -82,8 +83,8 @@ body{
     line-height: 17px;
     color: #2C0707;
     position: absolute;
-    top: 35px;
-    left: 116px;
+    top: 15px;
+    left: 26px;
 }
 .nav-bar {
     margin-right: 135px;
@@ -411,11 +412,11 @@ body{
 .footer {
     background: #FFC9BC;
     padding: 91px 0 85px 0;
-    position: relative;
 }
 .footer-container {
     display: flex;
     align-items: center;
+    position: relative;
 }
 .footer-logo {
     display: flex;
@@ -426,13 +427,17 @@ body{
     position: absolute;
     width: 36px;
     height: 59px;
-    top: 66px;
-    left: 89px;
+    top: -20px;
+    left: 0;
 }
 .footer-name {
     position: absolute;
-    top: 91px;
-    left: 115px;
+    top: 5px;
+    left: 27px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #2C0707;
 }
 .footer-list {
     display: flex;
